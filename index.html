@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Dinari Pay</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        body {
+            width: 600px; margin: 0 auto
+        }
+
+        label.error {
+            display: block;
+            margin: 0;
+            padding: 0;
+            color: red;
+        }
+    </style>
+
+  </head>
+
+    <body>
+
+    
+    <h1 class="display-4 p-3">Formulário Dinari Pay</h1>
+
+    <form style="width: 300px; margin: 0 auto" id="form" class="form">
+        
+        <!-- Nome  -->
+        <div class="form-group">
+            <label for="nome">Nome: </label>
+            <br>
+            <input class="form-control-md" type="text" id="nome" name="nome" placeholder="Digite seu nome"  >
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="cpf">CPF: </label>
+            <br>
+            <input class="form-control-md cpf" type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" >
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <br>
+            <input class="form-control-md" type="email" id="email" name="email" placeholder="Digite seu email" >
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="data">Data de nascimento</label>
+            <br>
+            <input class="form-control-md" type="date" id="data" name="data" >
+        </div>
+        <br>
+
+        <div class="form-group" >
+            <label for="sexo" name="sexo2">Sexo: </label>
+            <br>
+            <fieldset id="gender_group">
+                <input class="form-control-md" type="radio"  name="sexo" value="M"> Masculino <br>
+                <input class="form-control-md" type="radio"  name="sexo" value="F"> Feminino <br>
+            </fieldset>
+        </div>
+        <br>
+
+        
+
+        <div class="form-group">
+            <label for="senha">Senha: </label>
+            <br>
+            <input class="form-control-md" type="password" id="senha" name="senha" >
+        </div>
+        <br>
+
+        <div class="form-group">
+            <label for="senha2">Confirme sua senha: </label>
+            <br>
+            <input class="form-control-md" type="password" id="senha2" name="senha2" >
+        </div>
+        <br>
+
+    
+
+
+        <br><br>
+
+        <form >
+        <!-- button -->
+        <div class="form-group" style="width: 400px; margin: 0 auto">
+            <input class="btn btn-success btn-lg submit"  type="submit" value="Cadastrar" >
+            <input class="btn btn-danger btn-lg" type="button" name="apagar" id="apagar" value="Cancelar">
+        </div>
+    </form>
+    <br><br>
+
+    
+
+ 
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!-- Inclusão do jQuery-->
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- Inclusão do Plugin jQuery Validation-->
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <script src="./plugins/jquery-mask/dist/jquery.mask.min.js"></script>
+    <script src="validacao.js"></script>
+  </body>
+</html>
