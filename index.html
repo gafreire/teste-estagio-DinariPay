@@ -1,133 +1,88 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-
-    <title>Dinari Pay</title>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-
-    <style>
-        
-
-
-    </style>
-
-  </head>
-
-    <body>
-        <div class="form-body">
-            <div class="row">
-                <div class="form-holder">
-                     <div class="form-content">
-                        <div class="form-items">
-                            <h3>Dinari Pay</h3>
-                            <p>Teste estágio.</p>
-                            <form  id="form" class="form">
-                                
-                                <!-- Nome  -->
-                                <div class="form-group col-md-12">
-                                    <label for="nome">Nome: </label>
-                                    
-                                    <input class="form-control-md" type="text" id="nome" name="nome" placeholder="Digite seu nome"  >
-                                </div>
-                                
-
-                                <!-- CPF -->
-                                <div class="form-group col-md-12">
-                                    <label for="cpf">CPF: </label>
-                                    
-                                    <input class="form-control-md cpf" type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" >
-                                </div>
-                                
-
-                                <!-- Email -->
-                                <div class="form-group col-md-12">
-                                    <label for="email">Email: </label>
-                                    
-                                    <input class="form-control-md" type="email" id="email" name="email" placeholder="Digite seu email" >
-                                </div>
-                                
-
-                                <!-- Data Nascimento -->
-                                <div class="form-group col-md-12">
-                                    <label for="data">Data de nascimento: </label>
-                                    
-                                    <input class="form-control" type="date" id="data" name="data" >
-                                </div>
-                                
-
-                                <!-- Sexo -->
-                                <div class="form-group col-md-12" >
-                                    <label for="sexo" name="sexo2">Sexo: </label>
-                                    
-                                    <fieldset id="gender_group">
-                                        <input class="form-control-md" type="radio"  name="sexo" value="M"> Masculino 
-                                        <input class="form-control-md" type="radio"  name="sexo" value="F"> Feminino 
-                                    </fieldset>
-                                </div>
-
-                            
-
-                                <!-- Senha -->
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label for="senha">Senha: </label>
-                                        
-                                        <input class="form-control-md" type="password" id="senha" name="senha" placeholder="Digite sua senha" >
-                                    </div>
-                                    
-
-                                    <!-- Confirme sua Senha -->
-                                    <div class="form-group col-md-6">
-                                        <label for="senha2">Confirme sua senha: </label>
-                                        
-                                        <input class="form-control-md" type="password" id="senha2" name="senha2" placeholder="Digite novamente sua senha" >
-                                    </div>
-                                </div>
-                            
-                                
-
-                                <form >
-                                    <div class="row">
-                                        <div class="form-group col-md-3"></div>
-                                        <div class="form-group col-md-3">
-                                            <input class="btn btn-success btn-lg submit"  type="submit" value="Cadastrar" >
-                                        </div>
-                                        <div class="form-group col-md-5">
-                                            <input class="btn btn-danger btn-lg" type="button" name="apagar" id="apagar" value="Cancelar">
-                                        </div>
-                                       
-
-                                    </div>
-                                </form>
-                            
+   <head>
+      <title>Dinari Pay</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <!-- CSS -->
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <div class="form-body">
+         <div class="row">
+            <div class="form-holder">
+               <div class="form-content">
+                  <div class="form-items">
+                     <h3>Dinari Pay</h3>
+                     <p>Teste estágio.</p>
+                     <form  id="form" class="form">
+                        <!-- Nome  -->
+                        <div class="form-group col-md-12">
+                           <label for="nome">Nome: </label>
+                           <input class="form-control-md" type="text" id="nome" name="nome" placeholder="Digite seu nome"  >
                         </div>
-                    </div>
-                </div>
+                        <!-- CPF -->
+                        <div class="form-group col-md-12">
+                           <label for="cpf">CPF: </label>
+                           <input class="form-control-md cpf" type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" >
+                        </div>
+                        <!-- Email -->
+                        <div class="form-group col-md-12">
+                           <label for="email">Email: </label>
+                           <input class="form-control-md" type="email" id="email" name="email" placeholder="Digite seu email" >
+                        </div>
+                        <!-- Data Nascimento -->
+                        <div class="form-group col-md-12">
+                           <label for="data">Data de nascimento: </label>
+                           <input class="form-control" type="date" id="data" name="data" >
+                        </div>
+                        <!-- Sexo -->
+                        <div class="form-group col-md-12" >
+                           <label for="sexo" name="sexo2">Sexo: </label>
+                           <fieldset id="gender_group">
+                              <input class="form-control-md" type="radio"  name="sexo" value="M"> Masculino 
+                              <input class="form-control-md" type="radio"  name="sexo" value="F"> Feminino 
+                           </fieldset>
+                        </div>
+                        <!-- Senha -->
+                        <div class="row">
+                           <div class="form-group col-md-6">
+                              <label for="senha">Senha: </label>
+                              <input class="form-control-md" type="password" id="senha" name="senha" placeholder="Digite sua senha" >
+                           </div>
+                           <!-- Confirme sua Senha -->
+                           <div class="form-group col-md-6">
+                              <label for="senha2">Confirme sua senha: </label>
+                              <input class="form-control-md" type="password" id="senha2" name="senha2" placeholder="Digite novamente sua senha" >
+                           </div>
+                        </div>
+                     <form >
+                        <div class="row">
+                           <div class="form-group col-md-3"></div>
+                           <div class="form-group col-md-3">
+                              <input class="btn btn-success btn-lg submit"  type="submit" value="Cadastrar" >
+                           </div>
+                           <div class="form-group col-md-5">
+                              <input class="btn btn-danger btn-lg" type="button" name="apagar" id="apagar" value="Cancelar">
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
             </div>
-        </div>
-
- 
-
-
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    
-    <!-- Inclusão do jQuery-->
-    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-    <!-- Inclusão do Plugin jQuery Validation-->
-    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
-    <script src="./plugins/jquery-mask/dist/jquery.mask.min.js"></script>
-    <script src="validacao.js"></script>
-  </body>
+         </div>
+      </div>
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <!-- Inclusão do jQuery-->
+      <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+      <!-- Inclusão do Plugin jQuery Validation-->
+      <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+      <script src="./plugins/jquery-mask/dist/jquery.mask.min.js"></script>
+      <script src="script.js"></script>
+   </body>
 </html>

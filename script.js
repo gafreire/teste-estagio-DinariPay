@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 
     //verificar se o cpf e valido
@@ -123,7 +122,7 @@ $(document).ready(function() {
     form.validate()
     $( ".submit" ).click(function() {
         if (form.valid() == true) {
-        alert( "Cadastrado com sucesso! ");
+            alert( "Cadastrado com sucesso! ");
         }
         
     });
